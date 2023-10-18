@@ -1,0 +1,763 @@
+ @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto:wght@400;500&display=swap');
+
+
+body{
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_content{
+    margin-top: 43px;
+}
+
+.header_novbar1{
+    display: flex;
+    align-items: center;
+}
+
+.header_novbar{
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    margin-left: 35px;
+}
+
+.header_list{
+    color:#150C01;
+    font-family: Roboto;
+    font-size: 16px;
+
+}
+
+.header_link{
+    color: #150C01;
+    font-size: 16px;
+}
+
+.header_link:hover{
+    color: #DC780B;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_btn{
+    border-radius: 5px;
+    background:#DC780B;
+    padding: 13px 30px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.hero_title{
+    color:#150C01;
+    font-family: Philosopher;
+    font-size: 48.83px;
+    margin-top: 130px;
+    width: 550px;
+}
+
+.hero_item{
+    color:#150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 42px;
+    width: 550px;
+}
+
+.hero_btn1{
+    border-radius: 5px;
+    background-color:#DC780B;
+    padding: 21px 40px;
+    color: #fff;
+}
+
+.hero_btn2{
+    border-radius: 5px;
+    border: 1.5px solid #dc770b2a;
+    padding: 21px 40px;
+    color: #DC780B;
+}
+
+.hero_btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.hero_content{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+.hero{
+    background-image: url(../img/CSmJnTefxM\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 0px right 25px ;
+}
+
+/* stop */
+/* start */
+
+.possion{
+    margin-top: 243px;
+}
+
+.possion_title{
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.possion_title1{
+    text-align: center;
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    text-transform: capitalize;
+}
+
+.possion_title2{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    margin-top: 165px;
+}
+
+.possion_item{
+    color: #150C01;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    width: 300px;
+}
+
+.possion_title2::before{
+    content: "";
+    width: 88px;
+    height: 88px;
+    background-image:url(../img/Group\ 124.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -120px;
+    left: 110px;
+}
+
+.possion_bcg_img::before{
+    content: "";
+    width: 88px;
+    height: 88px;
+    background-image:url(../img/Group\ 123.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -120px;
+    left: 110px; 
+}
+
+.possion_bcg_img1::before{
+    content: "";
+    width: 88px;
+    height: 88px;
+    background-image:url(../img/Group\ 125.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -120px;
+    left: 110px;   
+}
+
+.possion_novbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+
+.possion_title3{
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    
+}
+
+.possion_title4{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    margin-bottom: 30px;
+    width: 470px;
+
+}
+
+.possion_item1{
+    color: #150c01d3;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 30px;
+    width: 470px;
+}
+
+.possion_btn1{
+    border-radius: 5px;
+    background: #DC780B;  
+    padding: 11px 30px;
+    color: #fff; 
+}
+
+.possion_novbar1{
+    margin-top: 108px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 80px;
+}
+
+.fml_img{
+    border-radius: 26px;
+}
+
+
+
+
+
+
+
+
+
+/* stop */
+/* start */
+
+.menu_title{
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.menu_title1{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.menu_item{
+    color: #150C01;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 21px;
+    width: 730px;
+}
+
+.card{
+    border-radius: 75px 10px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    width: 360px;
+}
+
+.card_img{
+    border-radius: 75px 10px 75px 0px;
+}
+
+.menu_main_text{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.menu_main_title{
+    margin-right: 128px;
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+}
+
+.menu_main_title1{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+}
+
+.menu_item1{
+    margin-left: 25px;
+    position: relative;
+    width: 310px;
+}
+
+.menu_item1::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    /* background-image: url(../img/Group\ 110.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left -20px bottom; */
+}
+
+.addition_img{
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    /* margin-left: 37px;
+    margin-left: 216px; */
+    padding-bottom: 36px;
+}
+
+.addition_img1{
+    margin-left: 25px;
+    margin-right: 186px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.star_img{
+    position: relative;
+}
+
+.star_img::after{
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../img/Group\ 84.png);
+    background-repeat: no-repeat;
+    bottom: 40px;
+    right: 25px;
+}
+
+.star_five_img{
+    position: relative;
+}
+
+.star_five_img::after{
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../img/star_img.svg);
+    background-repeat: no-repeat;
+    bottom: 40px;
+    right: 25px; 
+}
+
+.star_three{
+    position: relative;
+}
+
+.star_three::after{
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../img/star_img2.svg);
+    background-repeat: no-repeat;
+    bottom: 40px;
+    right: 25px;
+}
+
+.star_two_img{
+    position: relative;
+}
+
+.star_two_img::after{
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../img/star_img3.svg);
+    background-repeat: no-repeat;
+    bottom: 40px;
+    right: 25px;
+}
+
+.menu_main_title2{
+    margin-right: 203px;
+}
+
+.menu_main_title3{
+    margin-right: 35px;
+}
+
+.menu_main_title4{
+    margin-right: 157px;
+}
+
+.menu_main_title5{
+    margin-right: 84px;
+}
+
+.menu_btn{
+    border-radius: 5px;
+    border: 1px solid #dc770b43;
+    color: #DC780B;
+    padding: 11px 30px;
+    margin-top: 60px;
+     text-align: center;
+}
+
+.marketimg_title{
+    color: #DC780B;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding-top: 114px;
+}
+
+.marketimg_title1{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    margin-bottom: 29px;
+    width: 555px;
+}
+
+.marketimg_item{
+    color: #150c0191;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 40px;
+    width: 555px;
+}
+
+.menu_btn1{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.marketing_btn{
+    position: relative;
+    font-family: Roboto;
+    padding: 15px 30px 14px 62px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.marketing_btn::before{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    display: inline-block;
+    background-image: url(../img/apple_img.svg);
+    background-repeat: no-repeat;
+    top: 11px;
+    left: 28px;
+}
+
+.marketing_btn1{
+    background-color: #FBF1E7;
+    padding: 15px 30px 14px 63px;
+    border-radius: 5px;
+    border: solid #ededed  2px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.marketing_btn1::before{
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    display: inline-block;
+    background-image: url(../img/googleplay_img.svg);
+    background-repeat: no-repeat;
+    top: 11px;
+    left: 28px;
+}
+
+.marketing{
+    background-color: #FBF1E7;
+    height: 528px;
+    margin-top: 199px;
+}
+
+.marketing_text{
+    display: flex;
+}
+
+.marketing_novbar{
+    margin-left: 100px;
+}
+
+.tel_img{
+    position: relative;
+    top: -60px;
+    border-radius: 49px;
+    margin-left:80px;
+}
+
+.marking{
+    margin-top: 200px;
+}
+
+.making_title1{
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.making_title2{
+    color: #000;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.making_item{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.director_img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 41px;
+}
+
+.marking_director{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marking_item{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 139px;
+    margin-right: 147px;
+}
+
+.star_main_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star_img4{
+    margin-bottom: 32px;
+}
+
+.director_name{
+    color: #000000bc;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.director_name1{
+    color: #00000080;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+/* stop */
+
+.contact{
+    background-color: #dc770b1a;
+    height: 448px;
+}
+
+.contact_title1{
+    color: #DC780B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    padding-top: 115px;
+    margin-bottom: 15px;
+}
+
+.contact_title2{
+    color: #150C01;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    width: 749px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input{
+    border-radius: 10px;
+    background: #FFF;
+    padding: 32px 402px 32px 32px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputs_btn{
+    border-radius: 10px;
+    background: #DC780B;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20);
+    padding: 30px 57px;
+    color: #fff;
+    position: relative;
+    left: -15px;
+    font-size: 18px;
+}
+
+
+
+/* stop */
+/* start */
+
+.novbar{
+    background-color: #252525;
+    height: 429px;
+}
+
+.novbar_content{
+    padding-top: 137px;
+}
+
+.novbar_logo{
+    margin-bottom: 25px;
+}
+
+.novbar_link{
+    color: #ffffffa1;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.novabr_main_list{
+    margin-bottom: 17px;
+}
+
+.novbar_list{
+    margin-right: 120px;
+}
+
+.novbar_title{
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+.novbar_main_list3{
+    color: #ffffffa1;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.novbar_content{
+    display: flex;
+    align-items: center;
+}
+
+.novbar_link2{
+    margin-top: 28px;
+}
+
+.novbar_company{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.novbar_link3{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
